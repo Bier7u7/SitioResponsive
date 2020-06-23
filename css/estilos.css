@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Menu*/
+/*menu*/
+#menu{
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    display: block;
+}
+#menu ul{
+	margin-left:40%;
+    text-align:right;
+}
+#menu ul li{
+    display: inline-block;
+}
+.navbar-header{
+    text-decoration: none;
+}
+.navbar li a, .navbar .navbar-brand{
+    color:#000000 !important; 
+}
+.navbar-nav li a:hover{
+	color:#474747 !important; 
+}
+.navbar-nav li.active a{
+	background-color:#29292c !important; 
+}
+.navbar-default .navbar-toggle{
+	border-color:transparent; 
+}
+#logo{
+    border-radius: 35px;
+    width: 50px;
+    height: 50px;
+}
+/*Indice*/
+#indice{
+    display: block;
+    width: 90%;
+    height: 80%;
+    margin-left: 40px;
+    color: black;
+}
+#Ejerciciosclase ul li{
+    list-style:none;
+}
+#Ejerciciosclase ul li a{
+    text-decoration: none;
+    color: black;
+}
+#Ejerciciosclase ul li a:hover{
+    color: gray;
+}
+#Ejercicios ul li{
+    list-style: none;
+}
+#Ejercicios ul li a{
+    text-decoration: none;
+    color: black;
+}
+#Ejercicios ul li a:hover{
+    color: gray;
+}
+/*Footer*/
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: #00ffff;
+    position: fixed;
+    left:0px;
+   bottom:0px;
+   background: -webkit-linear-gradient(left, rgb(169, 230, 238) , rgb(112, 197, 223)); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(right, rgb(169, 230, 238), rgb(78, 142, 161)); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(right, rgb(169, 230, 238),rgb(78, 142, 161)); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to right, rgb(169, 230, 238) ,rgb(10, 73, 146)); /* Standard syntax */
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a:hover{
+	background-color:#a59c9d;
+    font-size: 60px;
+    border-radius: 30px;
+}
+#autor{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+#footerimg{
+    display: inline-block;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+#imgyo{
+    width: 120px;
+    height: 110px;
+}
+/*secciones*/
+section{
+    padding: 20px;
+}
